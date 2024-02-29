@@ -1,0 +1,68 @@
+    .container {
+        width: 100%;
+        max-width: 300px; /* Ancho máximo del contenedor */
+        margin: 0 auto; /* Centrar el contenedor horizontalmente */
+        padding: 20px;
+    }
+
+    .card {
+        width: 300px; /* Ancho fijo de la tarjeta */
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        margin-bottom: 20px; /* Espacio entre tarjetas */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card_title {
+        color: #333;
+        margin-bottom: 10px; /* Espacio entre el título y la lista */
+    }
+
+    .card ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .card ul li {
+        margin-bottom: 10px; /* Espacio entre elementos de la lista */
+    }
+
+    .card ul li span:first-child {
+        font-weight: bold;
+        display: block; /* Muestra el texto en su propia línea */
+    }
+
+    .card ul li span:last-child {
+        display: block; /* Muestra el contenido en su propia línea */
+    }
+
+    .botones {
+        margin-top: auto; /* Empuja los botones hacia abajo */
+        display: flex;
+        justify-content: flex-end; /* Alinea los botones a la derecha */
+    }
+
+    .botones button {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        padding: 10px 20px;
+        margin-left: 10px; /* Espacio entre los botones */
+        cursor: pointer;
+    }
+
+    .botones button:hover {
+        background-color: #0056b3;
+    }
+    span{
+        padding: 5px 10px;
+        font-weight: 500;
+    }
+    .card_span{
+        color: gray;
+        font-size: small;
+    }

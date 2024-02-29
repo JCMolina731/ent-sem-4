@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa+One&family=Fira+Sans:wght@300;400;500;600;700;800&family=Palanquin+Dark:wght@600;700&family=Roboto+Mono&family=Trocchi&display=swap');
+
+
+/*--reset-- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: 'Fire Sans', sans-serif; 
+}
+
+body{
+  background-color: whitesmoke;
+  color: #222;  
+}
+
+.app_container{
+  padding: 30px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.app_title{
+  font-weight: 700;
+  float: right;
+}
+.app_button{
+  background-color: #555a88;
+  color: white;
+  width: 160px;
+  cursor: pointer;
+  text-align: center;
+  margin: 4px 2px;
+  padding: 10px 7px;
+  float: right;
+}
+
+.app_cards{
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+}
